@@ -7,7 +7,7 @@ function copyToFigma(event) {
     copyButton.textContent = "Copied to clipboard";
 
 
-    fetch(`http://localhost:3000/figma/code/${event.target.id}.txt`)
+    fetch(`figma/code/${event.target.id}.txt`)
     .then(response => response.text())
     .then(data => {
         if (data) {
@@ -44,6 +44,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
 
 
