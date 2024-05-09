@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Designs</title>
+    <style>
+        body {
+            margin: 0;
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            width: 80%;
+        }
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .preview {
+            width: 100%;
+        }
+        .copy-button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #000000;
+            color: #FFFFFF;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Copy to Figma</h1>
+    <p>This is a working demo of the copy to figma feature, to be used on Blocks website to showcase things created using plugin.</p>
+    <br>
+    <div class="grid">        
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Aircall</h2>
+                <img class="preview" src="figma/preview/aircall.png">
+                <button class="copy-button" id="aircall">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Collective</h2>
+                <img class="preview" src="figma/preview/collective.png">
+                <button class="copy-button" id="collective">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Cycle</h2>
+                <img class="preview" src="figma/preview/cycle.png">
+                <button class="copy-button" id="cycle">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Folk</h2>
+                <img class="preview" src="figma/preview/folk.png">
+                <button class="copy-button" id="folk">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Front</h2>
+                <img class="preview" src="figma/preview/front.png">
+                <button class="copy-button" id="front">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Product Hunt</h2>
+                <img class="preview" src="figma/preview/product-hunt.png">
+                <button class="copy-button" id="product-hunt">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Slite</h2>
+                <img class="preview" src="figma/preview/slite.png">
+                <button class="copy-button" id="slite">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Stripe</h2>
+                <img class="preview" src="figma/preview/stripe.png">
+                <button class="copy-button" id="stripe">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Spendesk</h2>
+                <img class="preview" src="figma/preview/spendesk.png">
+                <button class="copy-button" id="spendesk">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Upflow</h2>
+                <img class="preview" src="figma/preview/upflow.png">
+                <button class="copy-button" id="upflow">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Upflow 2</h2>
+                <img class="preview" src="figma/preview/upflow2.png">
+                <button class="copy-button" id="upflow2">Copy to Figma</button>
+            </div>
+            <div class="grid-item">
+                <h2>Yousign</h2>
+                <img class="preview" src="figma/preview/yousign.png">
+                <button class="copy-button" id="yousign">Copy to Figma</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="copyToFigma.js"></script>
+</body>
+</html>
